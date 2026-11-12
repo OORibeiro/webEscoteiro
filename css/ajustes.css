@@ -1,0 +1,6 @@
+/* Ajustes finais (celular) — carregado depois de style.css */
+@media (max-width: 640px) {
+  body { padding-bottom: 0; }
+  .site-footer { padding-bottom: calc(20px + env(safe-area-inset-bottom, 0px)); }
+  .nav-cta { display: none !important; }
+}
